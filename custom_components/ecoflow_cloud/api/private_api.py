@@ -11,7 +11,7 @@ from ..devices import EcoflowDeviceInfo, DiagnosticDevice
 
 _LOGGER = logging.getLogger(__name__)
 
-BASE_URI = "https://api.ecoflow.com"
+BASE_URI = "https://api-e.ecoflow.com"
 
 
 class EcoflowPrivateApiClient(EcoflowApiClient):
